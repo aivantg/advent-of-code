@@ -1,5 +1,5 @@
 # Read trebuchet_input.txt file as array of lines
-with open('trebuchet_input.txt') as f:
+with open('input.txt') as f:
     trebuchetInput = f.readlines()
 
 def trebuchet_pt1(input): 
