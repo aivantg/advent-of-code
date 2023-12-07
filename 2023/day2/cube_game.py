@@ -34,10 +34,9 @@ print (f"Part 1 result: {sum_of_possible_games(games, given)}")
 
 # Part 2:   For each game find the minimum number of cubes to make the game valid
 #           Return the sum of the each # of cube multiplied together
-
 def sum_of_power_of_cubes(games):
     sum = 0
-    for id, colors in games.items():
+    for colors in games.values():
         power = 1
         for num in colors.values(): 
             power *= num
